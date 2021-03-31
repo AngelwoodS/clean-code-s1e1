@@ -8,12 +8,14 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- block header -->
       <header class="header">
         <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix pic">
         <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
         </a>
       </header>
+      <!-- section Add -->
       <main class="form">
         <section class="form__add">
           <label class="form__title form__title-add" for="new-task">
@@ -28,9 +30,11 @@
             </button>
           </div>
         </section>
+        <!-- section TODO -->
         <section class="form-todo">
           <h3 class="form__title">Todo</h3>
           <ul class="item-form" id="incomplete-tasks">
+            <!-- PayBills task -->
             <li class="item-form__task">
               <input class="item-form__checkbox input" type="checkbox">
               <label class="item-form__title task-text">
@@ -44,6 +48,7 @@
                 <img class="form__button-img" src="./remove.svg" alt="Delete">
               </button>
             </li>
+            <!-- GoShopping task -->
             <li class="item-form__task edit-mode">
               <input class="item-form__checkbox input" type="checkbox">
               <label class="item-form__title item-form__title_edit task-text">
@@ -61,6 +66,7 @@
             </li>
           </ul>
         </section>
+        <!-- section completed -->
         <section class="completed">
           <h3 class="form__title">Completed</h3>
           <ul class="item-form" id="completed-tasks">
