@@ -16,13 +16,12 @@
 .header {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
 
   .header__img {
     text-align: center;
   }
-  
+
 }
 .form {
   display: block;
@@ -60,7 +59,6 @@
 .button:hover {
   color: #3a3a3a;
 }
-
 .form__title {
   color: #333;
   font-weight: 700;
@@ -85,7 +83,6 @@
 .input-border :focus {
   color: #333;
 }
-
 .form__title-add {
   display: block;
   margin: 0 0 20px;
@@ -93,9 +90,6 @@
 .task__input-text {
   width: 318px;
 }
-/* .task__button-text :hover {
-    color: #0fc57c;
-  } */
 .item-form__task {
   overflow: hidden;
   padding: 20px 0;
@@ -117,9 +111,6 @@
 .item-form__input {
   width: 226px;
 }
-/* .form__button-delete:hover {
-    color: #cf2323;
-  } */
 .form__button-img {
   height: 2em;
   transform: rotateZ(45deg);
