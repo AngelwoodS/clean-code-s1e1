@@ -38,7 +38,7 @@
 }
 .item-form {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 .item-form__task {
   list-style: none;
@@ -48,7 +48,7 @@
 }
 .button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
